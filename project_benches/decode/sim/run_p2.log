@@ -1,0 +1,449 @@
+QuestaSim-64 qrun 2026.1 Utility 2026.01 Jan 25 2026
+Start time: 08:20:54 on Oct 24,2026
+qrun -64 -gui -coverage -onfinish stop -classdebug -uvmcontrol=all -msgmode both -l run_p2.log "+incdir+../../../verification_ip/interface_packages/decode_in_pkg" ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv "+incdir+../../../verification_ip/interface_packages/decode_out_pkg" ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv "+incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg" ../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv "+incdir+../../../verification_ip/environment_packages/decode_env_pkg" ../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv "+incdir+../tb/tests/decode_test_pkg" ../tb/tests/decode_test_pkg/decode_test_pkg.sv ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv ../rtl/data_defs.v ../rtl/Decode_Pipelined.v ../tb/testbench/hdl_top.sv ../tb/testbench/hvl_top.sv -do "set IterationLimit 140000; set NoQuitOnFinish 1; run 0; do wave.do; run -a;" "+UVM_TESTNAME=test_top" -top hvl_top -top hdl_top
+
+Formatted qrun command:
+qrun
+    -64
+    -gui
+    -coverage
+    -onfinish stop
+    -classdebug
+    -uvmcontrol=all
+    -msgmode both
+    -l run_p2.log
+    "+incdir+../../../verification_ip/interface_packages/decode_in_pkg"
+    ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv
+    "+incdir+../../../verification_ip/interface_packages/decode_out_pkg"
+    ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv
+    "+incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg"
+    ../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv
+    "+incdir+../../../verification_ip/environment_packages/decode_env_pkg"
+    ../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv
+    "+incdir+../tb/tests/decode_test_pkg"
+    ../tb/tests/decode_test_pkg/decode_test_pkg.sv
+    ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv
+    ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv
+    ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv
+    ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv
+    ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv
+    ../rtl/data_defs.v
+    ../rtl/Decode_Pipelined.v
+    ../tb/testbench/hdl_top.sv
+    ../tb/testbench/hvl_top.sv
+    -do "set IterationLimit 140000; set NoQuitOnFinish 1; run 0; do wave.do; run -a;"
+    "+UVM_TESTNAME=test_top"
+    -top hvl_top
+    -top hdl_top
+
+** Note: (qrun-220) '/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/modelsim.ini' is used as the ini file.
+Creating library 'qrun.out/work'.
+QuestaSim-64 vlog 2026.1 Compiler 2026.01 Jan 25 2026
+Start time: 08:20:54 on Oct 24,2026
+vlog -64 "+incdir+../../../verification_ip/interface_packages/decode_in_pkg" "+incdir+../../../verification_ip/interface_packages/decode_out_pkg" "+incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg" "+incdir+../../../verification_ip/environment_packages/decode_env_pkg" "+incdir+../tb/tests/decode_test_pkg" ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv ../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv ../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv ../tb/tests/decode_test_pkg/decode_test_pkg.sv ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv ../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv ../rtl/data_defs.v ../rtl/Decode_Pipelined.v ../tb/testbench/hdl_top.sv ../tb/testbench/hvl_top.sv -work qrun.out/work -statslog qrun.out/stats_logXvsq7G -csession=incr 
+-- Compiling package decode_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) ../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv(3): Using implicit +incdir+/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package decode_out_pkg
+-- Compiling package lc3_prediction_pkg
+-- Compiling package decode_env_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_out_pkg
+-- Importing package lc3_prediction_pkg
+-- Compiling package decode_test_pkg
+-- Importing package decode_env_pkg
+-- Compiling interface decode_in_if
+-- Compiling interface decode_out_if
+-- Compiling interface decode_in_driverBFM
+-- Compiling interface decode_in_monitorBFM
+-- Compiling interface decode_out_monitorBFM
+-- Compiling module Decode
+-- Compiling module hdl_top
+-- Compiling module hvl_top
+-- Importing package decode_test_pkg
+
+Top level modules:
+	hdl_top
+	hvl_top
+End time: 08:20:55 on Oct 24,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+QuestaSim-64 vopt 2026.1 Compiler 2026.01 Jan 25 2026
+Start time: 08:20:56 on Oct 24,2026
+vopt hvl_top hdl_top -work qrun.out/work -statslog qrun.out/stats_logXvsq7G -csession=incr -o qrun_opt -csessionid=3 
+
+Top level modules:
+	hvl_top
+	hdl_top
+
+Analyzing design...
+-- Loading module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package decode_test_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_env_pkg
+-- Importing package decode_out_pkg
+-- Importing package lc3_prediction_pkg
+-- Loading module hdl_top
+-- Loading package mtiUvm.questa_uvm_pkg
+-- Loading interface decode_in_if
+-- Loading interface decode_in_monitorBFM
+-- Loading interface decode_in_driverBFM
+-- Loading interface decode_out_if
+-- Loading interface decode_out_monitorBFM
+-- Loading module Decode
+Optimizing 20 design-units (inlining 3/8 module instances):
+-- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+-- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+-- Optimizing package decode_in_pkg(fast)
+-- Optimizing package decode_out_pkg(fast)
+-- Optimizing package lc3_prediction_pkg(fast)
+-- Optimizing package decode_env_pkg(fast)
+-- Optimizing package decode_test_pkg(fast)
+-- Inlining interface decode_in_if(fast__1)
+-- Inlining interface decode_out_if(fast__1)
+-- Inlining module Decode(fast)
+-- Optimizing module hdl_top(fast)
+-- Optimizing interface decode_out_monitorBFM(fast__3)
+-- Optimizing interface decode_in_driverBFM(fast__3)
+-- Optimizing interface decode_in_monitorBFM(fast__3)
+-- Optimizing module hvl_top(fast)
+-- Optimizing interface decode_out_monitorBFM(fast)
+-- Optimizing interface decode_out_if(fast)
+-- Optimizing interface decode_in_monitorBFM(fast)
+-- Optimizing interface decode_in_driverBFM(fast)
+-- Optimizing interface decode_in_if(fast)
+Optimized design name is qrun_opt
+End time: 08:21:01 on Oct 24,2026, Elapsed time: 0:00:05
+Errors: 0, Warnings: 0
+# Reading pref.tcl
+# 
+# 
+# 
+# 
+# //  Questa Sim-64
+# //  Version 2026.1 linux_x86_64 Jan 25 2026
+# //
+# // Unpublished work. Copyright 2026 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# ** Note: (vsim-220) '/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/modelsim.ini' is used as the ini file.
+# vsim -64 -onfinish stop -classdebug -uvmcontrol=all -msgmode both "+UVM_TESTNAME=test_top" -lib qrun.out/work -do "coverage save -onexit test_top_$Sv_Seed.ucdb" -do "set IterationLimit 140000; set NoQuitOnFinish 1; run 0; do wave.do; run -a;" -wlf vsim.wlf -gui -statslog qrun.out/stats_logXvsq7G qrun_opt -appendlog -l run_p2.log 
+# Start time: 08:22:46 on Oct 24,2026
+# Loading sv_std.std
+# Loading work.decode_in_driverBFM(fast)
+# Loading work.decode_in_monitorBFM(fast)
+# Loading work.decode_out_monitorBFM(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.lc3_prediction_pkg(fast)
+# Loading work.decode_out_pkg(fast)
+# Loading work.decode_in_pkg(fast)
+# Loading work.decode_env_pkg(fast)
+# Loading work.decode_test_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.hvl_top(fast)
+# Loading work.hdl_top(fast)
+# Loading work.decode_in_monitorBFM(fast__3)
+# Loading work.decode_in_driverBFM(fast__3)
+# Loading work.decode_out_monitorBFM(fast__3)
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.proxy' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_out_pkg File: ../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_monitor.svh Line: 18
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.proxy' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_in_pkg File: ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_monitor.svh Line: 36
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.drive_data' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_in_pkg::decode_in_driver File: ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh Line: 21
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.drive_data' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_in_pkg::decode_in_driver File: ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh Line: 21
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.dout_val' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_in_pkg::decode_in_driver File: ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh Line: 21
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.drive_data' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_in_pkg::decode_in_driver File: ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh Line: 21
+# ** Warning: (vsim-8887) Virtual interface element 'this.vif.npc_val' uses an interface with interface ports.
+#    Time: 0 ns  Iteration: 0  Region: /decode_in_pkg::decode_in_driver File: ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh Line: 21
+# Loading /mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# coverage save -onexit test_top_$Sv_Seed.ucdb
+# set IterationLimit 140000
+# 140000
+#  set NoQuitOnFinish 1
+# 1
+#  run 0
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(all)
+# UVM_INFO @ 0: reporter [RNTST] Running test test_top...
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_agent.svh(25) @ 0: uvm_test_top.env.in_agent [AGENT] decode_in_configuration: Driver BFM is     CONNECTED, Monitor BFM is     CONNECTED
+# ** Error: (vsim-8767) At time 0 ns, API function mti_CreateTransactionStream() detected a name collision:
+#   name:   txn_stream
+#   region: /uvm_root/uvm_test_top/env/in_agent/monitor
+# **************************************************************************
+# * Questa UVM Transaction Recording Turned ON.                            *
+# * recording_detail has been set.                                         *
+# *  To turn off, set 'recording_detail' to off:                           *
+# * uvm_config_db#(int)            ::set(null, "", "recording_detail", 0); *
+# * uvm_config_db#(uvm_bitstream_t)::set(null, "", "recording_detail", 0); *
+# **************************************************************************
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 0: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h6b89 (Opcode: 4'b0110) | NPC_IN: 16'h053c
+#  do wave.do
+#  run -a
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 30 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 30: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h39df (Opcode: 4'b0011) | NPC_IN: 16'ha3cc
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 50: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 70 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 70: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h202b (Opcode: 4'b0010) | NPC_IN: 16'hc537
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 90: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 110 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 110: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hb8a7 (Opcode: 4'b1011) | NPC_IN: 16'h90f5
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 130: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 150 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 150: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'ha9b9 (Opcode: 4'b1010) | NPC_IN: 16'h4812
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 170: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 190 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 190: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'heed1 (Opcode: 4'b1110) | NPC_IN: 16'ha83b
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 210: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 230 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 230: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h9118 (Opcode: 4'b1001) | NPC_IN: 16'hc602
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 250: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 270 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 270: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h61e8 (Opcode: 4'b0110) | NPC_IN: 16'he5bd
+# UVM_ERROR ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(45) @ 290: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Mismatch! Expected: ir:9118 npc:c602 e:100000 w:00 mem:0, Actual: ir:9118 npc:c602 e:100001 w:00 mem:0
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 310 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 310: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h6f68 (Opcode: 4'b0110) | NPC_IN: 16'h3e9c
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 330: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 350 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 350: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hc171 (Opcode: 4'b1100) | NPC_IN: 16'h73f3
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 370: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 390 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 390: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hbab1 (Opcode: 4'b1011) | NPC_IN: 16'h88a2
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 410: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 430 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 430: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'he0bb (Opcode: 4'b1110) | NPC_IN: 16'h8cc3
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 450: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 470 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 470: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h38f2 (Opcode: 4'b0011) | NPC_IN: 16'h1bad
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 490: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 510 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 510: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h1779 (Opcode: 4'b0001) | NPC_IN: 16'h6782
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 530: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 550 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 550: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'heccd (Opcode: 4'b1110) | NPC_IN: 16'heaed
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 570: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 590 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 590: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h1370 (Opcode: 4'b0001) | NPC_IN: 16'h4760
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 610: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 630 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 630: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hcca3 (Opcode: 4'b1100) | NPC_IN: 16'h7d08
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 650: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 670 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 670: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h7ae8 (Opcode: 4'b0111) | NPC_IN: 16'h62d3
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 690: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 710 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 710: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hef79 (Opcode: 4'b1110) | NPC_IN: 16'hf5a2
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 730: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 750 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 750: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h9587 (Opcode: 4'b1001) | NPC_IN: 16'he4b3
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 770: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 790 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 790: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h50b9 (Opcode: 4'b0101) | NPC_IN: 16'h0b53
+# UVM_ERROR ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(45) @ 810: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Mismatch! Expected: ir:9587 npc:e4b3 e:100000 w:00 mem:0, Actual: ir:9587 npc:e4b3 e:100001 w:00 mem:0
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 830 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 830: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hcce5 (Opcode: 4'b1100) | NPC_IN: 16'h8325
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 850: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 870 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 870: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h6ba8 (Opcode: 4'b0110) | NPC_IN: 16'h4423
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 890: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 910 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 910: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h3e2b (Opcode: 4'b0011) | NPC_IN: 16'h7408
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 930: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 950 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 950: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h7911 (Opcode: 4'b0111) | NPC_IN: 16'hd269
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 970: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 990 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 990: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hab46 (Opcode: 4'b1010) | NPC_IN: 16'h1a45
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1010: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1030 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1030: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h9f99 (Opcode: 4'b1001) | NPC_IN: 16'h18f4
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1050: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1070 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1070: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h5892 (Opcode: 4'b0101) | NPC_IN: 16'hc890
+# UVM_ERROR ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(45) @ 1090: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Mismatch! Expected: ir:9f99 npc:18f4 e:100000 w:00 mem:0, Actual: ir:9f99 npc:18f4 e:100001 w:00 mem:0
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1110 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1110: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'he46f (Opcode: 4'b1110) | NPC_IN: 16'h6386
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1130: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1150 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1150: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h5319 (Opcode: 4'b0101) | NPC_IN: 16'hfcdc
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1170: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1190 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1190: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h2833 (Opcode: 4'b0010) | NPC_IN: 16'hf667
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1210: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1230 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1230: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h0694 (Opcode: 4'b0000) | NPC_IN: 16'h09dd
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1250: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1270 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1270: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h6392 (Opcode: 4'b0110) | NPC_IN: 16'h7e9d
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1290: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1310 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1310: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h0312 (Opcode: 4'b0000) | NPC_IN: 16'hc855
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1330: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1350 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1350: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hbf91 (Opcode: 4'b1011) | NPC_IN: 16'h8ae4
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1370: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1390 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1390: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h9927 (Opcode: 4'b1001) | NPC_IN: 16'hed19
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1410: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1430 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1430: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h3479 (Opcode: 4'b0011) | NPC_IN: 16'h31d5
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1450: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1470 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1470: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hb9f5 (Opcode: 4'b1011) | NPC_IN: 16'h5297
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1490: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1510 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1510: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hb758 (Opcode: 4'b1011) | NPC_IN: 16'hd811
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1530: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1550 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1550: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h5f63 (Opcode: 4'b0101) | NPC_IN: 16'h85d4
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1570: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1590 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1590: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hccf0 (Opcode: 4'b1100) | NPC_IN: 16'h260c
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1610: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1630 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1630: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h35a4 (Opcode: 4'b0011) | NPC_IN: 16'h8545
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1650: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1670 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1670: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h05c2 (Opcode: 4'b0000) | NPC_IN: 16'h4736
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1690: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1710 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1710: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'hc195 (Opcode: 4'b1100) | NPC_IN: 16'h9491
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1730: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1750 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1750: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h562c (Opcode: 4'b0101) | NPC_IN: 16'h1df7
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1770: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1790 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1790: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h167e (Opcode: 4'b0001) | NPC_IN: 16'hc229
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1810: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1830 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1830: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h3cb0 (Opcode: 4'b0011) | NPC_IN: 16'hcf3d
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1850: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1870 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1870: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h1b9f (Opcode: 4'b0001) | NPC_IN: 16'h5ab8
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1890: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1910 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1910: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h796d (Opcode: 4'b0111) | NPC_IN: 16'h2efd
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1930: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1950 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh(21) @ 1950: uvm_test_top.env.in_agent.sequencer@@seq [SEQ] Sending: INSTR: 16'h6041 (Opcode: 4'b0110) | NPC_IN: 16'h7ba8
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 1970: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# ** Error: (vsim-8237) On the stream '/uvm_root/uvm_test_top/env/in_agent/monitor/txn_stream'.
+# At 1990 ns, an attempt was made to end a transaction before the start time for that transaction.
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(43) @ 2010: uvm_test_top.env.scoreboard [SCOREBOARD] Transaction Match!
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 2040: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(53) @ 2040: uvm_test_top.env.scoreboard [SCOREBOARD_REPORT] -----------------------------------------
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(54) @ 2040: uvm_test_top.env.scoreboard [SCOREBOARD_REPORT] Expected Transactions Received : 50
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(55) @ 2040: uvm_test_top.env.scoreboard [SCOREBOARD_REPORT] Total Comparisons Made         : 50
+# UVM_INFO ../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh(56) @ 2040: uvm_test_top.env.scoreboard [SCOREBOARD_REPORT] -----------------------------------------
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  106
+# UVM_WARNING :    0
+# UVM_ERROR :    3
+# UVM_FATAL :    0
+# ** Report counts by id
+# [AGENT]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCOREBOARD]    50
+# [SCOREBOARD_REPORT]     4
+# [SEQ]    50
+# [TEST_DONE]     1
+# ** Note: $finish    : /mnt/apps/public/COE/mg_apps/questa2026.1/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 2040 ns  Iteration: 54  Instance: /hvl_top
+# Break in Task uvm_pkg/uvm_root::run_test at /mnt/apps/public/COE/mg_apps/questa2026.1/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# 
+# 
+# Coverage saving has been started
+# Coverage database has been saved successfully.
+# End time: 08:31:07 on Oct 24,2026, Elapsed time: 0:08:21
+# Errors: 51, Warnings: 7
+End time: 08:31:10 on Oct 24,2026, Elapsed time: 0:10:16
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   0, Warnings:   0
+    vopt: Errors:   0, Warnings:   0
+    vsim: Errors:  51, Warnings:   7
+  Totals: Errors:  51, Warnings:   7

@@ -1,0 +1,498 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2026.1 2026.01, Jan 25 2026
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim
+vDecode
+Z2 2../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv|../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv|../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv|../tb/tests/decode_test_pkg/decode_test_pkg.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv|../rtl/data_defs.v|../rtl/Decode_Pipelined.v|../tb/testbench/hdl_top.sv|../tb/testbench/hvl_top.sv
+Z3 !s110 1792844455
+!i10b 1
+!s100 6hl6cd5<<jQ^Z8m7NdaC12
+IlV;Wmb>NgGMNGYSb02ZUd0
+!i119 1
+R1
+w1792175833
+8../rtl/Decode_Pipelined.v
+F../rtl/Decode_Pipelined.v
+!i122 0
+L0 2 58
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2026.1;84
+r1
+!s85 0
+31
+Z6 !s108 1792844454.000000
+Z7 !s107 ../tb/tests/decode_test_pkg/test_top.svh|../../../verification_ip/environment_packages/decode_env_pkg/src/decode_environment.svh|../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh|../../../verification_ip/environment_packages/decode_env_pkg/src/decode_predictor.svh|../../../verification_ip/environment_packages/decode_env_pkg/src/decode_env_configuration.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/controller_model.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/writeback_model.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/mem_access_model.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/execute_model.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/decode_model.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/fetch_model.svh|../../../verification_ip/environment_packages/lc3_prediction_pkg/src/lc3_prediction_typedefs.svh|../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_agent.svh|../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_monitor.svh|../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_configuration.svh|../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_transaction.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_agent.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_coverage.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_monitor.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_configuration.svh|../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_transaction.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../tb/testbench/hvl_top.sv|../tb/testbench/hdl_top.sv|../rtl/Decode_Pipelined.v|../rtl/data_defs.v|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv|../tb/tests/decode_test_pkg/decode_test_pkg.sv|../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv|../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv|
+Z8 !s90 -64|+incdir+../../../verification_ip/interface_packages/decode_in_pkg|+incdir+../../../verification_ip/interface_packages/decode_out_pkg|+incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg|+incdir+../../../verification_ip/environment_packages/decode_env_pkg|+incdir+../tb/tests/decode_test_pkg|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv|../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv|../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv|../tb/tests/decode_test_pkg/decode_test_pkg.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv|../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv|../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv|../rtl/data_defs.v|../rtl/Decode_Pipelined.v|../tb/testbench/hdl_top.sv|../tb/testbench/hvl_top.sv|-work|qrun.out/work|-statslog|qrun.out/stats_logXvsq7G|-csession=incr|
+!i113 0
+Z9 o-64 -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -64 +incdir+../../../verification_ip/interface_packages/decode_in_pkg +incdir+../../../verification_ip/interface_packages/decode_out_pkg +incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg +incdir+../../../verification_ip/environment_packages/decode_env_pkg +incdir+../tb/tests/decode_test_pkg -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+n@decode
+Xdecode_env_pkg
+!i114 1
+R2
+Z12 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z13 DXx6 mtiUvm 7 uvm_pkg 0 22 TM6ObL^b6dI9PQ3fQcVH=2
+Z14 DXx4 work 13 decode_in_pkg 0 22 NdUJ6_2200[_:MOJNOUYX1
+Z15 DXx4 work 14 decode_out_pkg 0 22 A:94<KHTD[k2;F`0FfN=N2
+Z16 DXx4 work 18 lc3_prediction_pkg 0 22 4o9J<b:lFj[EfPA2=Wm;I2
+R3
+!i10b 1
+!s100 A?z;XJ>4NPBc_V6AnSPIi3
+IP0a]BjW4`Ql6a9gjcbAJV1
+S1
+R1
+w1792842410
+8../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv
+F../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv
+Z17 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z18 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z19 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z20 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z21 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z22 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z23 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z24 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z25 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z26 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z27 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z28 F/mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F../../../verification_ip/environment_packages/decode_env_pkg/src/decode_env_configuration.svh
+F../../../verification_ip/environment_packages/decode_env_pkg/src/decode_predictor.svh
+F../../../verification_ip/environment_packages/decode_env_pkg/src/decode_scoreboard.svh
+F../../../verification_ip/environment_packages/decode_env_pkg/src/decode_environment.svh
+!i122 0
+Z29 L0 1 0
+VP0a]BjW4`Ql6a9gjcbAJV1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Ydecode_in_driverBFM
+R2
+R12
+R13
+R3
+!i10b 1
+!s100 naQOE[aU`>`620AkQGHN[2
+IdYmdBKYAPT;l_a^jN4P:d2
+S1
+R1
+w1792199700
+8../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv
+F../../../verification_ip/interface_packages/decode_in_pkg/decode_in_driverBFM.sv
+!i122 0
+R29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+ndecode_in_driver@b@f@m
+Ydecode_in_if
+R2
+R12
+R3
+!i10b 1
+!s100 :G20;R9I>25f^;@Uz0E3b3
+I4;cZ:JImLh8eLkEZY^;Wm0
+S1
+R1
+w1792201832
+8../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv
+F../../../verification_ip/interface_packages/decode_in_pkg/decode_in_if.sv
+!i122 0
+R29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Ydecode_in_monitorBFM
+R2
+R12
+R13
+R14
+R3
+!i10b 1
+!s100 369@a7BlEIzW1UN77<X7P3
+I_11[CelSJGBbZ8IZ9Ioig3
+S1
+R1
+w1792199748
+8../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv
+F../../../verification_ip/interface_packages/decode_in_pkg/decode_in_monitorBFM.sv
+!i122 0
+R29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+ndecode_in_monitor@b@f@m
+Xdecode_in_pkg
+!i114 1
+R2
+!s115 decode_in_monitorBFM
+!s115 decode_in_driverBFM
+R12
+R13
+R3
+!i10b 1
+!s100 DnLagHfgTbB[cD]oYNZSi0
+INdUJ6_2200[_:MOJNOUYX1
+S1
+R1
+w1792844444
+8../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv
+F../../../verification_ip/interface_packages/decode_in_pkg/decode_in_pkg.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_transaction.svh
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_configuration.svh
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_driver.svh
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_monitor.svh
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_random_sequence.svh
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_coverage.svh
+F../../../verification_ip/interface_packages/decode_in_pkg/src/decode_in_agent.svh
+!i122 0
+R29
+VNdUJ6_2200[_:MOJNOUYX1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Ydecode_out_if
+R2
+R12
+R3
+!i10b 1
+!s100 lN3hgQ2]Nb^F5R@@hPS`e3
+ILfTPX4<L0na4=IN57BJND1
+S1
+R1
+w1792202099
+8../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv
+F../../../verification_ip/interface_packages/decode_out_pkg/decode_out_if.sv
+!i122 0
+R29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Ydecode_out_monitorBFM
+R2
+R12
+R13
+R15
+R3
+!i10b 1
+!s100 m0E^<7^M]7<GUI97Ce6=c2
+I9li<Qm[;^?OzYEjXh[zi00
+S1
+R1
+w1792199804
+8../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv
+F../../../verification_ip/interface_packages/decode_out_pkg/decode_out_monitorBFM.sv
+!i122 0
+R29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+ndecode_out_monitor@b@f@m
+Xdecode_out_pkg
+!i114 1
+R2
+!s115 decode_out_monitorBFM
+R12
+R13
+R3
+!i10b 1
+!s100 5KjhXl7;cg=5nLeO0g_3U3
+IA:94<KHTD[k2;F`0FfN=N2
+S1
+R1
+w1792841495
+8../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv
+F../../../verification_ip/interface_packages/decode_out_pkg/decode_out_pkg.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+F../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_transaction.svh
+F../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_configuration.svh
+F../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_monitor.svh
+F../../../verification_ip/interface_packages/decode_out_pkg/src/decode_out_agent.svh
+!i122 0
+R29
+VA:94<KHTD[k2;F`0FfN=N2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Xdecode_test_pkg
+!i114 1
+R2
+R12
+R13
+R14
+R15
+R16
+Z30 DXx4 work 14 decode_env_pkg 0 22 P0a]BjW4`Ql6a9gjcbAJV1
+R3
+!i10b 1
+!s100 HJfn?lEdPQ8AU48[eXQ?D2
+IHQL==Bgc<PA8oT7AIOUIR1
+S1
+R1
+w1792200388
+8../tb/tests/decode_test_pkg/decode_test_pkg.sv
+F../tb/tests/decode_test_pkg/decode_test_pkg.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+F../tb/tests/decode_test_pkg/test_top.svh
+!i122 0
+R29
+VHQL==Bgc<PA8oT7AIOUIR1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vhdl_top
+R2
+R12
+R13
+R3
+!i10b 1
+!s100 W7I=95GUH`zK;G@aC`HWz0
+Ii]PoZ;6oYgT:oAM924z:Q1
+S1
+R1
+w1792200718
+8../tb/testbench/hdl_top.sv
+F../tb/testbench/hdl_top.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+!i122 0
+L0 1 6539
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vhvl_top
+R2
+R12
+R13
+R14
+R15
+R16
+R30
+DXx4 work 15 decode_test_pkg 0 22 HQL==Bgc<PA8oT7AIOUIR1
+R3
+!i10b 1
+!s100 6Uk:h4XO=9>ZT`2_0XS_M0
+IK7jjMcJdW@RK<n;GABcd_1
+S1
+R1
+w1792200730
+8../tb/testbench/hvl_top.sv
+F../tb/testbench/hvl_top.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+!i122 0
+L0 1 6481
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Xlc3_prediction_pkg
+R2
+R12
+R13
+R3
+!i10b 1
+!s100 057n9DOUMk^^lGl2I=EOk3
+I4o9J<b:lFj[EfPA2=Wm;I2
+S1
+R1
+w1792841588
+8../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/lc3_prediction_typedefs.svh
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/fetch_model.svh
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/decode_model.svh
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/execute_model.svh
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/mem_access_model.svh
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/writeback_model.svh
+F../../../verification_ip/environment_packages/lc3_prediction_pkg/src/controller_model.svh
+!i122 0
+R29
+V4o9J<b:lFj[EfPA2=Wm;I2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Tqrun_opt
+!i145 1
+!s11d decode_out_pkg /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work 1 decode_out_monitorBFM 1 /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work 
+!s11d decode_in_pkg /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work 2 decode_in_driverBFM 1 /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work decode_in_monitorBFM 1 /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work 
+!s11d uvm_pkg /mnt/apps/public/COE/mg_apps/questa2026.1/questasim/uvm-1.1d 3 decode_in_driverBFM 1 /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work decode_in_monitorBFM 1 /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work decode_out_monitorBFM 1 /mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work 
+!i144 0
+!s110 1792844457
+VXmgBIM7WB?;8UX30ZN15]3
+04 7 4 work hvl_top fast 0
+04 7 4 work hdl_top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-work qrun.out/work
+R11
+nqrun_opt
+OL;O;2026.1;84

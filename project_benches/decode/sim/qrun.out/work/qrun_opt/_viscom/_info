@@ -1,0 +1,6 @@
+__design_bin_path=/mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim
+__design_bin_name_path=/mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/design.bin
+incr_run_version=16384
+incr_partial_run_stats=0:0
+incr_no_change_stats=0:0
+opt_data_elab=/mnt/ncsudrive/s/sshanka8/sshanka8_p2/project_benches/decode/sim/qrun.out/work/qrun_opt
